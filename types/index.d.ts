@@ -328,3 +328,7 @@ declare interface getBankProps {
 declare interface getBankByAccountIdProps {
   accountId: string;
 }
+
+export interface SideBarProps {
+  user?: any; // 필요한 user 타입으로 수정하세요
+}
